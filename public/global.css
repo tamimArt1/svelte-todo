@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right top,
+    #858c92,
+    #79808e,
+    #737488,
+    #71667f,
+    #735771
+  );
+  background-repeat: no-repeat;
+}
